@@ -46,7 +46,7 @@ const submitRating = () => {
     });
 }
 
-const clsoeThankYouContainer = () => {
+const closeThankYouContainer = () => {
     closeBtn.addEventListener("click", () => {
     thankYouContainer.style.display = "none";
     mainContainer.style.display = "flex";
@@ -55,5 +55,5 @@ const clsoeThankYouContainer = () => {
 
 userRating();
 submitRating();
-clsoeThankYouContainer();
+closeThankYouContainer();
 
